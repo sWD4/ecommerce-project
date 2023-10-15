@@ -100,7 +100,9 @@ function Navbar() {
                     >
                       Logout
                     </Link>
-                  </div>: ""}
+                  </div>:  <Link to={'/signup'}  className="-m-2 block p-2 font-medium text-gray-900 cursor-pointer" style={{ color: mode === 'dark' ? 'white' : '', }}>
+                      Signup
+                    </Link>}
                   <div className="flow-root">
                     <Link
                       to={"/"}
